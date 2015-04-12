@@ -1,0 +1,224 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/scrollIt/scrollIt.js" type="text/javascript"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+<SCRIPT LANGUAGE="JavaScript">  
+	$(function(){
+	  $.scrollIt();
+	  $('.carousel').carousel();
+	});
+	
+	$('#myTab a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
+</SCRIPT>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="brand">COURSE MAP</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a data-scroll-nav="0">Course</a></li>
+            <li><a data-scroll-nav="1">Introduction</a></li>
+            <li><a data-scroll-nav="2">Application</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+<!--page1 -->
+<div class="blank" data-scroll-index="0"></div>
+
+<div class="page">
+<table class="logo">
+	<tr>
+		<td>
+		<p class="titletxt">COURSE NAME</p>
+		<p class="subtitletxt">Web Programming</p>
+		</td>
+	</tr>
+</table>	
+</div>
+
+<!--page2 -->
+<div class="blank" data-scroll-index="1"></div>
+<div class="page2">
+<div class="conbg">	
+
+	
+<div role="tabpanel">
+	  <ul class="nav nav-pills" role="tablist">
+		<li role="presentation" class="active"><a href="#1" aria-controls="1" role="tab" data-toggle="tab" id="courseNav">課程</a></li>
+	    <li role="presentation"><a href="#2" aria-controls="2" role="tab" data-toggle="tab" id="courseNav">備註</a></li>
+	    <li role="presentation"><a href="#3" aria-controls="3" role="tab" data-toggle="tab" id="courseNav">課程目標</a></li>
+	    <li role="presentation"><a href="#4" aria-controls="4" role="tab" data-toggle="tab" id="courseNav">課程大綱</a></li>
+	    <li role="presentation"><a href="#5" aria-controls="5" role="tab" data-toggle="tab" id="courseNav">上課進度</a></li>
+	    <li role="presentation"><a href="#6" aria-controls="6" role="tab" data-toggle="tab" id="courseNav">課程要求</a></li>
+	    <li role="presentation"><a href="#7" aria-controls="7" role="tab" data-toggle="tab" id="courseNav">參考書目</a></li>
+	    <li role="presentation"><a href="#8" aria-controls="8" role="tab" data-toggle="tab" id="courseNav">本課程附件</a></li>
+		
+	  </ul>
+
+	  <div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="1">	
+			
+				 <div class='info'>
+					<div class='infoNum'>
+						<p>1<p>
+					</div>
+					<div class='infoSection'>
+						<p>學年/學期 Academic Year/Semester</p>
+						<p>103 學年 第 2 學期</p>
+					</div>	
+					<br><br>
+					<div class='infoNum'>
+						<p>2<p>
+					</div>
+					<div class='infoSection'>
+						<p>課程名稱 Course Name</p>
+						<span>(中 Ch.)Ｗeb程式設計</span> / <span>(英 Eng.)Web Programming</span>
+						<p>781007-001</p>
+					</div>
+					<br><br>
+					<div class='infoNum'>
+						<p>3<p>
+					</div>	
+					<div class='infoSection'>
+						<p>授課教師 Instructor</p>
+						<p>余能豪</p>
+					</div>	
+					<br><br>
+					<div class='infoNum'>
+						<p>4<p>
+					</div>
+					<div class='infoSection'>
+						<p>修別 Type of Credit</p>
+						<p>群修</p>
+					</div>	
+					<br><br>
+					<div class='infoNum'>
+						<p>5<p>
+					</div>
+					<div class='infoSection'>
+						<p>學分數 No. of Credits</p>
+						<p>3.0</p>	
+					</div>	
+				</div>	
+
+			
+	  </div>
+	  <div role="tabpanel" class="tab-pane" id="2"><br>限學程同學方得修習。</div>
+	  <div role="tabpanel" class="tab-pane" id="3"><br>本課程旨在介紹WWW的基本運作原理並以其為平台開發應用程式，包含HTML5/CSS3動態網頁製作、網頁物件模型(DOM)、JavaScript程式設計與雲端應用等。</div>
+	    <div role="tabpanel" class="tab-pane" id="4"><br>本課程涵蓋網路平台之最新技術如HTML5, CSS3, Javascript, JSON, JQuery等，並介紹國內外網站及網路行銷活動範例，培養學生網頁應用程式之開發能力及資訊架構設計能力，最後能設計兼具功能與美感的動態網站。</div>
+	    <div role="tabpanel" class="tab-pane" id="5">
+			<br>
+		  <ol typr="none">
+			<li>Course Introduction / Git </li>
+			<li>HTML5</li> 
+			<li>CSS3 (I) </li>
+			<li>CSS3 (II) </li>
+			<li>IA - Analysis </li>
+			<li>Grid system / bootstrap</li> 
+			<li>IA presentation </li>
+			<li>Responsive design </li>
+			<li>Midterm </li>
+			<li>Javascript (I) / DOM</li> 
+			<li>Javascript (II) / JQuery </li>
+			<li>Parse / JSON </li>
+			<li>校慶運動會 </li>
+			<li>Heroku / Node.js</li> 
+			<li>Websocket </li>
+			<li>Guest speaker </li>
+			<li>Google Analytics </li>
+			<li>Final demo</li>
+		  </ol>
+		</div>
+
+	 	<div role="tabpanel" class="tab-pane" id="6"><br>課堂作業(35%) 、期中作業(20%)及期末實作成品成果展示(30%)</div>
+		<div role="tabpanel" class="tab-pane" id="7"><br>
+			<strong>為維護智慧財產權，請務必使用正版書籍</strong><br>
+			<ul><li>. Eric Freeman, Elisabeth Robson(2011), Head First HTML5 Programming: Building Web Apps with JavaScript, O'Reilly 
+</li><li>. Crockford Douglas, JavaScript: The Good Parts, O'Reilly</li></ul>
+		</div>
+		<div role="tabpanel" class="tab-pane" id="8"><br>N/A</div>
+	 </div>
+</div>	
+			
+</div>
+	<div class="divRight">
+		
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingOne">
+		      <h4 class="panel-title">
+		        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          核心能力分析圖 <br><i>Core competence analysis chart</i>
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+		      <div class="panel-body">
+				  <img src="img/core.png" alt="Core competence" width="100%">
+				  <section>
+					<ul>
+					能力項目說明：
+					<li>A.具備發現與解決問題之能力</li>	
+					<li>B.具備敘事與美學能力</li>
+					<li>C.具備科技研發與系統開發能力</li>	
+					<li>D.具備團隊合作力</li>
+					<li>E.具備人文關懷與社會參與情操</li>	
+					<li>F.具備企劃整合與溝通能力</li>
+				    </ul>
+				  </section>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="panel panel-default">
+		    <div class="panel-heading" role="tab" id="headingTwo">
+		      <h4 class="panel-title">
+		        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          授課方式比例圖<br><i>Teaching approach pie chart</i>
+		        </a>
+		      </h4>
+		    </div>
+		    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+		      <div class="panel-body">
+				  <img src="img/pie.png" alt="Teaching approach" width="100%">
+		      </div>
+		    </div>
+		  </div>
+		</div>		
+		
+	</div>
+</div>
+
+<!--page3 -->
+<div class="blank" data-scroll-index="2"></div>
+<div class="lastPage">
+	<div id="app"><a href="form.html" target="blink">Application Form</a></div>
+</div>
+
+</body>
+
+
+</html>

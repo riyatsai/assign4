@@ -1,0 +1,246 @@
+.navbar-default{
+	width:100%;
+	position:fixed;
+	background:#8C0044;
+	opacity:0.7;
+	top:0;
+	border:none;
+	box-shadow: 0 4px 5px #000;	
+}
+#brand{
+	color:#fff;
+}
+header{
+	width:100%;
+	height:70px;
+	background:#8C0044;
+	opacity:0.6;
+	margin:0 auto;
+	position:fixed;
+	top:0;
+	box-shadow: 0 4px 5px #000;
+}
+header ul li{
+	display:inline-block;
+	margin-left:20px;
+	font-size:20px;
+	color:#888;
+	padding-top:18px;
+}
+header ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+header ul li a:hover{
+	text-decoration:none;
+	color:#888;
+	transition: 500ms;
+}
+header p{
+	font-size:40px;
+	color:#fff;
+}
+body{
+	background-image:url("img/bg.png");
+	background-repeat: no-repeat;
+	background-size:100%;
+	background-attachment:fixed;
+	background-position:50% 0%;
+	margin:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	color:#AAAAAA;
+	font-size:18px;
+}
+body a{
+	color:#aaa;
+}
+body a:link { 
+	text-decoration: none;color: #aaa;
+}
+body a:active { 
+	text-decoration:blink;
+}
+body a:hover { text-decoration:none;color: #aaa;
+} 
+body a:visited { text-decoration: none;color: #aaa;
+}
+footer{
+	text-align:center;
+	background-color:#fff;
+	height:70px;
+	margin-bottom:0;
+}
+.blank{
+	height:90px;
+}
+.page{
+	height:100%;
+}
+.page2{
+	height:100%;
+}
+.lastPage{
+	height:70%;
+}
+.logo{
+	margin:3%;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left:1px #AAA solid;
+}
+.titletxt{
+	font-size:40px;
+	margin-left:5px;
+	font-family: 'Poiret One', cursive;
+}
+.subtitletxt{
+	font-size:30px;
+	margin-left:5px;
+	font-family: 'Poiret One', cursive;
+}
+.conbg{
+	display:inline-block;	
+	background:rgba(0,0,0,0.7);
+	width:70%;
+	height:85%;
+	border-radius:5px;
+	padding:10px;
+	margin-left:10px;
+}
+.divRight{
+	float:right;
+	margin-right:2%;
+	width:26%;
+	height:85%;
+	background-color:rgba(0,0,0,0.7);
+	border-radius:5px;
+	padding:10px;
+}
+.info{
+	margin-top:1em;
+	margin-left:1em;
+}
+.infoNum{
+	display:inline-block;
+	font-size:30px;
+	transform:rotate(-20deg);
+	background-color:#8C0044;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	text-indent:10px;
+	color:#fff;
+	font-family: 'Poiret One', cursive;
+}
+.infoSection{
+	padding-left:1em;
+	border-top:none;
+	border-bottom:none;
+	border-right:none;
+	border-left:1px #AAA solid;
+	display:inline-block;
+	border-radius:5px;
+	width:50%;
+}
+section{
+	font-size:15px;
+}
+#courseNav{
+	color:#aaa;
+	background-color:#8C0044;
+}
+#courseNav:hover{
+	color:#8C0044;
+	background-color:#fff;
+}
+#heading{
+	color:#8C0044;
+}
+
+ol>li:nth-child(odd){
+  color:#8C0044 ;
+}
+#app{
+	background-color:#8C0044;
+	border-radius:50%;
+	width:300px;
+	height:300px;
+	text-align:center;
+	font-size:40px;
+	padding-top:7%;
+	margin:0 auto;
+}
+#app:hover{
+	background-color:#fff;
+	transition: 800ms;
+}
+
+.formBg{
+	margin:0 auto;
+	margin-top:85px;
+	padding:10px;
+	width:70%;
+	background-color:#fff;
+	border-radius:8px;
+}
+.formcon{
+    margin:0 auto;
+	width:50%;
+}
+
+
+@media screen and (max-width: 768px){
+	.titletxt{
+		color:#fff;
+	}
+	.subtitletxt{
+		color:#fff;
+	}
+	.conbg{
+		background:#fff;
+		width:80%;
+		height:950px;
+		display:block;
+		margin:0 auto;
+	}
+	.divRight{
+		float:none;
+		display:block;
+		margin:0 auto;
+		width:80%;
+		height:700px;
+		background:#fff;
+		border-radius:5px;
+		padding:10px;
+	}
+	.page{
+		height:10%;
+	}
+	.page2{
+		height:1400px;
+	}
+	#app{
+		background-color:#8C0044;
+		border-radius:50%;
+		width:300px;
+		height:300px;
+		text-align:center;
+		font-size:40px;
+		padding-top:20%;
+		margin:0 auto;
+		margin-bottom:0px;
+	}
+	#app:hover{
+		background-color:#000;
+		transition: 800ms;
+	}
+	
+	#courseNav{
+		margin:1 auto;
+		width:120px;
+		color:#aaa;
+		background-color:#8C0044;
+	}
+}
