@@ -81,7 +81,7 @@ footer{
 	height:100%;
 }
 .lastPage{
-	height:70%;
+	height:100%;
 }
 .logo{
 	margin:3%;
@@ -171,6 +171,8 @@ ol>li:nth-child(odd){
 	text-align:center;
 	font-size:40px;
 	padding-top:7%;
+	position:relative;
+	top:20%;
 	margin:0 auto;
 }
 #app:hover{
@@ -202,6 +204,7 @@ ol>li:nth-child(odd){
 	.conbg{
 		background:#fff;
 		width:80%;
+		float:none;
 		height:950px;
 		display:block;
 		margin:0 auto;
